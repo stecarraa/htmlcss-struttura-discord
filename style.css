@@ -30,8 +30,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+padding: 15px;
     
 }
 
@@ -105,7 +104,7 @@ header{
 
 footer{
     padding: 10px;
-    border-top: #fff;
+    border-top: 1px solid white;
    
 }
 
@@ -126,3 +125,18 @@ min-width: 120px;
 padding: 2px;
 border-radius: 5px;
 text-align: center;}
+
+
+.bg-gray{
+    background-color: lightgrey;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-gray
