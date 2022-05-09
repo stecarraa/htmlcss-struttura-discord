@@ -49,6 +49,7 @@ header{
 
 .flex-multi{
     display: flex;
+    flex-grow: 4;
 }
 
 .head-content{
@@ -86,13 +87,34 @@ header{
 
 .small{
     background-color: aquamarine;
-    height: 120px;
-    max-width: calc(100% - 1/4);
+    height: 300px;
+    width: 25%;
+    border: solid 1px;
+}
+
+.sx2{
+    background-color: rgb(23, 220, 220);
+    height: 300px;
+    flex-grow: 4;
+}
+.dx2{
+    background-color: pink;
+    height: 300px;
+    flex-grow: 1;
 }
 
 footer{
     padding: 10px;
-    background-color:cadetblue;
+    border-top: #fff;
+   
+}
+
+
+.footer-content{
+    padding: 10px;
+    width: 1150px;
+    text-align: center;
+    background-color: aquamarine;
 }
 
 
