@@ -30,11 +30,11 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-padding: 15px;
+    padding: 15px;
     
 }
 
-.flex-item2{
+.flex-item-reverse{
     width: 1150px;
     margin: 0 auto;
     display: flex;
@@ -45,6 +45,32 @@ padding: 15px;
     flex-direction: row-reverse;
     
 }
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style:none;
+    display: inline;
+    text-decoration: none;
+}
+
+.menu-column{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+}
+
+.logo-column{
+    width: 20%;
+}
+
+.button-column{
+    width: 20%;
+}
+
+
 
 .flex-multi{
     display: flex;
@@ -138,5 +164,3 @@ text-align: center;}
 .bg-black{
     background-color: black;
 }
-
-.bg-gray
